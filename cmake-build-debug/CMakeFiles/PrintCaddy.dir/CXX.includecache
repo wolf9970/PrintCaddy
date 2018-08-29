@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/wolf/CLionProjects/PrintCaddy/main.cpp
-cstdlib
+iostream
+-
+libusb-1.0/libusb.h
 -
 
