@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/wolf/CLionProjects/PrintCaddy/main.cpp">
+		<Unit filename="/home/wolf/CLionProjects/PrintCaddy/DeviceDiscover.cpp">
 			<Option target="PrintCaddy"/>
 		</Unit>
 		<Unit filename="/home/wolf/CLionProjects/PrintCaddy/CMakeLists.txt">

@@ -57,27 +57,27 @@ include CMakeFiles/PrintCaddy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PrintCaddy.dir/flags.make
 
-CMakeFiles/PrintCaddy.dir/main.cpp.o: CMakeFiles/PrintCaddy.dir/flags.make
-CMakeFiles/PrintCaddy.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wolf/CLionProjects/PrintCaddy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PrintCaddy.dir/main.cpp.o"
-	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PrintCaddy.dir/main.cpp.o -c /home/wolf/CLionProjects/PrintCaddy/main.cpp
+CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o: CMakeFiles/PrintCaddy.dir/flags.make
+CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o: ../DeviceDiscover.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wolf/CLionProjects/PrintCaddy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o"
+	/usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o -c /home/wolf/CLionProjects/PrintCaddy/DeviceDiscover.cpp
 
-CMakeFiles/PrintCaddy.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PrintCaddy.dir/main.cpp.i"
-	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wolf/CLionProjects/PrintCaddy/main.cpp > CMakeFiles/PrintCaddy.dir/main.cpp.i
+CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.i"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wolf/CLionProjects/PrintCaddy/DeviceDiscover.cpp > CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.i
 
-CMakeFiles/PrintCaddy.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PrintCaddy.dir/main.cpp.s"
-	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wolf/CLionProjects/PrintCaddy/main.cpp -o CMakeFiles/PrintCaddy.dir/main.cpp.s
+CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.s"
+	/usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wolf/CLionProjects/PrintCaddy/DeviceDiscover.cpp -o CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.s
 
 # Object files for target PrintCaddy
 PrintCaddy_OBJECTS = \
-"CMakeFiles/PrintCaddy.dir/main.cpp.o"
+"CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o"
 
 # External object files for target PrintCaddy
 PrintCaddy_EXTERNAL_OBJECTS =
 
-PrintCaddy: CMakeFiles/PrintCaddy.dir/main.cpp.o
+PrintCaddy: CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o
 PrintCaddy: CMakeFiles/PrintCaddy.dir/build.make
 PrintCaddy: CMakeFiles/PrintCaddy.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wolf/CLionProjects/PrintCaddy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PrintCaddy"

@@ -1,0 +1,4 @@
+
+Print Caddy is connected: 
+VendorID: 2dfe  ProductID: beef
+Print Caddy not connected.

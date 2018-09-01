@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/wolf/CLionProjects/PrintCaddy/main.cpp
-iostream
--
+/home/wolf/CLionProjects/PrintCaddy/DeviceDiscover.cpp
 libusb-1.0/libusb.h
+-
+cstdlib
+-
+iostream
 -
 

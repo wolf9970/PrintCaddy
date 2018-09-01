@@ -123,32 +123,32 @@ PrintCaddy/fast:
 	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/build
 .PHONY : PrintCaddy/fast
 
-main.o: main.cpp.o
+DeviceDiscover.o: DeviceDiscover.cpp.o
 
-.PHONY : main.o
+.PHONY : DeviceDiscover.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/main.cpp.o
-.PHONY : main.cpp.o
+DeviceDiscover.cpp.o:
+	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o
+.PHONY : DeviceDiscover.cpp.o
 
-main.i: main.cpp.i
+DeviceDiscover.i: DeviceDiscover.cpp.i
 
-.PHONY : main.i
+.PHONY : DeviceDiscover.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/main.cpp.i
-.PHONY : main.cpp.i
+DeviceDiscover.cpp.i:
+	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.i
+.PHONY : DeviceDiscover.cpp.i
 
-main.s: main.cpp.s
+DeviceDiscover.s: DeviceDiscover.cpp.s
 
-.PHONY : main.s
+.PHONY : DeviceDiscover.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/main.cpp.s
-.PHONY : main.cpp.s
+DeviceDiscover.cpp.s:
+	$(MAKE) -f CMakeFiles/PrintCaddy.dir/build.make CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.s
+.PHONY : DeviceDiscover.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PrintCaddy"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... DeviceDiscover.o"
+	@echo "... DeviceDiscover.i"
+	@echo "... DeviceDiscover.s"
 .PHONY : help
 
 

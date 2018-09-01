@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PrintCaddy.dir/main.cpp.o"
+  "CMakeFiles/PrintCaddy.dir/DeviceDiscover.cpp.o"
   "PrintCaddy.pdb"
   "PrintCaddy"
 )
